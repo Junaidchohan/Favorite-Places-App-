@@ -1,8 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 import 'package:favorite_places/providers/user_places.dart';
 import 'package:flutter/material.dart';
-import 'package:riverpod/riverpod.dart';
 
 class AddPlaceScreen extends ConsumerStatefulWidget {
   const AddPlaceScreen({super.key});
