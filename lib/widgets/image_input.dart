@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
 class ImageInput extends StatefulWidget {
-  const ImageInput({super.key});
+  const ImageInput(
+      {super.key, required Null Function(dynamic image) onPickImage});
 
   @override
   State<ImageInput> createState() {
